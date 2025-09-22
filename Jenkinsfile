@@ -21,7 +21,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/L3gacy08/test-pipeline'
+                git branch: 'main', url: 'https://github.com/L3gacy08/test-pipeline.git'
             }
         }
 
